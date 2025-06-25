@@ -13,4 +13,4 @@ try:
 except FileNotFoundError:
     print(f"Error: The file '{csv_file_name}' was not found")
 except Exception as e:
-    print(f"An unexpected error occured : {e}")
+    print(f"An unexpected error occured : {e}") 
